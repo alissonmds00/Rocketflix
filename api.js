@@ -34,7 +34,9 @@ function shuffle() {
                 console.log(path)
                 console.log(ImgUrl)
             })
-            .catch(error => console.log(error))
+            .catch(error =>
+                document.getElementById('thumb').setAttribute('src', 'https://github.com/cockpit-project/cockpit/issues/8197'),
+                console.log(error))
     }
     getData()
 }

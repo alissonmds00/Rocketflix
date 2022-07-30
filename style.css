@@ -84,26 +84,34 @@ footer>button>img {
 }
 
 main {
+  margin: 0 auto;
   justify-content: center;
   display: flex;
   flex-direction: row;
   width: 62.8rem;
   height: 31.9rem;
+  gap: 10rem;
 }
 
-main>#thumb {
-  width: 23.1rem;
-  height: 2.571rem;
-  left: 61.1rem;
-  top: 27.9rem;
+#desc {
+  width: 42.3rem;
+  max-height: 27.424rem;
+  padding-bottom: 1rem;
 
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2rem;
 
   color: #FFFCF9;
+}
+
+
+main>#thumb {
+  width: 171px;
+height: 243.77px;
+
 }
 
 main>h1 {
