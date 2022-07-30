@@ -95,9 +95,7 @@ main {
 
 #desc {
   width: 42.3rem;
-  max-height: 27.424rem;
-  padding-bottom: 1rem;
-
+  height: 27.424rem;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
