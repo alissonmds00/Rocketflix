@@ -127,18 +127,19 @@ main>h1 {
 }
 
 @media (max-width: 640px) {
-  html {
-    height: 100%;
-  }
   body, header {
-    height: 100%;
     display: flex;
     margin: 0 auto;
     justify-content: center;
   }
 
-  header {
-    height: 30%;
+  html {
+    height: 100%;
+  }
+
+  body {
+    min-height: 100%;
+    padding: 0;
   }
 
   main {
@@ -176,6 +177,4 @@ main>h1 {
     justify-content:flex-end;
   }
 
-  #sinopse {
-  }
 }
