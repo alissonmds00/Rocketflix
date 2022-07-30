@@ -90,7 +90,7 @@ main {
   flex-direction: row;
   width: 62.8rem;
   height: 31.9rem;
-  gap: 10rem;
+  gap: 5rem;
 }
 
 #desc {
@@ -125,3 +125,4 @@ main>h1 {
   color: #FFFCF9;
 
 }
+
