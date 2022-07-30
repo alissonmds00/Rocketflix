@@ -99,7 +99,7 @@ main {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 2rem;
 
   color: #FFFCF9;
@@ -107,8 +107,8 @@ main {
 
 
 main>#thumb {
-  width: 171px;
-height: 243.77px;
+  width: 17.1rem;
+height: 24.377rem;
 
 }
 
@@ -126,3 +126,56 @@ main>h1 {
 
 }
 
+@media (max-width: 640px) {
+  html {
+    height: 100%;
+  }
+  body, header {
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  header {
+    height: 30%;
+  }
+
+  main {
+    width: 40rem;
+    display: block;
+  }
+
+  main > img {
+    display: block;
+    margin: 0 auto;
+    max-height: 15rem;
+  }
+
+  #desc {
+    width: 31.6rem;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
+  }
+
+  #desc {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+  }
+
+  #sinopse {
+  }
+}
